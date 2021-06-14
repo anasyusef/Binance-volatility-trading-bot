@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  binance_bot:
+    volumes:
+      - "./:/usr/src/app"
+      - ~/.aws:/root/.aws:ro

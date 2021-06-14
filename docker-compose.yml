@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  binance-bot:
+    image: binance-bot
+    build: ./
+    tty: true
+    command: python3 Binance\ Detect\ Moonings.py
+    restart: always

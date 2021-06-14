@@ -1,0 +1,14 @@
+Dockerfile
+.git
+.dockerignore
+.gitignore
+docker-compose.yml
+docker-compose.dev.yml
+__pycache__
+LICENSE
+FAQ.md
+README.md
+.git
+.github
+.venv
+.vscode
